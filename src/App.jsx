@@ -15,6 +15,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col gap-8 p-4">
+      <h1 className="text-center text-2xl font-bold">Exercise : Energy dashboard in D3 + React</h1>
       <div className="w-full max-w-4xl mx-auto aspect-[2/1]">
         <ResponsiveLineChart data={worldData} />
       </div>
